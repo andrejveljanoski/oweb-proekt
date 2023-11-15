@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./insta.css"></script>
+    <link rel="stylesheet" href="../navbar.css"></link>
+    <script src="../navbar.js"></script>
+    <title>Insta</title>
+  </head>
+  <body>
+    <div id="header">
+      <nav class="menu">
+        <div id="logo-div">
+        <img id="logo" src="../../components/images/logo.png" alt="car-logo" />
+        <h1 id="title">AutoHub</h1>
+      </div>
+        <ul id="list">
+          <li>
+            <a href="../home/home.html"
+              ><button id="b1" class="navbar-button">Home</button></a
+            >
+          </li>
+          <li>
+            <a href="../insta/insta.html"><button id="b1">Instagram</button></a>
+          </li>
+          <li>
+            <div class="dropdown">
+              <button id="dropdown-button" class="navbar-button">Products</button>
+              <ul id="dropdown-content"></ul>
+            </div>
+          </li>
+          <li>
+            <a href="../survey/survey.html"
+              ><button id="b1" class="navbar-button">Survey</button></a
+            >
+          </li>
+          <li>
+            <a href="../contact/contact.html"
+              ><button id="b1" class="navbar-button">Contact</button></a
+            >
+          </li>
+        </ul>
+      </nav>
+    <div id="insta-container"></div>
+    <div id="upload-form">
+      <input type="file" name="uploaded-image" id="uploaded-image" />
+      <button id="upload-button" onclick="uploadImage()">Upload</button>
+    </div>
+    <script src="insta.js"></script>
+  </body>
+</html>

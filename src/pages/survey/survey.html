@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../navbar.css"></link>
+    <link rel="stylesheet" href="./survey.css"></link>
+    <link rel="stylesheet" href="../products.css">
+    <script src="../navbar.js"></script>
+    <title>Survey</title>
+  </head>
+  <body>
+    <div id="header">
+      <nav class="menu">
+        <div id="logo-div">
+        <img id="logo" src="../../components/images/logo.png" alt="car-logo" />
+        <h1 id="title">AutoHub</h1>
+      </div>
+        <ul id="list">
+          <li>
+            <a href="../home/home.html"
+              ><button id="b1" class="navbar-button">Home</button></a
+            >
+          </li>
+          <li>
+            <a href="../insta/insta.html"><button id="b1">Instagram</button></a>
+          </li>
+          <li>
+            <div class="dropdown">
+              <button id="dropdown-button" class="navbar-button">Products</button>
+              <ul id="dropdown-content"></ul>
+            </div>
+          </li>
+          <li>
+            <a href="../survey/survey.html"
+              ><button id="b1" class="navbar-button">Survey</button></a
+            >
+          </li>
+          <li>
+            <a href="../contact/contact.html"
+              ><button id="b1" class="navbar-button">Contact</button></a
+            >
+          </li>
+        </ul>
+      </nav>
+    <form  id="survey-info">
+      <script src="survey.js"></script>
+      <div>
+        <input class="text-input" id="survey-infos" type="text" placeholder="Username" required />
+        <input class="text-input" id="number" type="tel" placeholder="Your number" />
+        <input class="text-input" id="survey-city" type="text" placeholder="City" />
+      </div>
+      <div id="gender">
+        
+        <label class="label" for="Male"> Male</label>
+        <input  id="Mr" type="radio" name="m-f" />
+        <label class="label" for="Female"> Female</label>
+        <input id="Mrs" type="radio" name="m-f" />
+      </div>
+      <div id="rating">
+        <p><b><i>How satisfied you were</p>
+        <input
+          type="range"
+          id="rng"
+          name="rate"
+          min="0"
+          max="10"
+          value="0"
+          step="1"
+        />
+      </div>
+      <button class="buttonP" type="submit">Submit</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../navbar.css"></link>
+    <script src="../navbar.js"></script>
+    <title>AutoHub</title>
+  </head>
+  <body>
+    <div id="header">
+      <div id="header">
+        <nav class="menu">
+          <div id="logo-div">
+          <img id="logo" src="../../components/images/logo.png" alt="car-logo" />
+          <h1 id="title">AutoHub</h1>
+        </div>
+          <ul id="list">
+            <li>
+              <a href="../home/home.html"
+                ><button id="b1" class="navbar-button">Home</button></a
+              >
+            </li>
+            <li>
+              <a href="../insta/insta.html"><button id="b1">Instagram</button></a>
+            </li>
+            <li>
+              <div class="dropdown">
+                <button id="dropdown-button" class="navbar-button">Products</button>
+                <ul id="dropdown-content"></ul>
+              </div>
+            </li>
+            <li>
+              <a href="../survey/survey.html"
+                ><button id="b1" class="navbar-button">Survey</button></a
+              >
+            </li>
+            <li>
+              <a href="../contact/contact.html"
+                ><button id="b1" class="navbar-button">Contact</button></a
+              >
+            </li>
+          </ul>
+        </nav>
+    </div>
+    <main>
+      <form id="signin-form">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name=" username" required />
+        <label for="password">Password:</label>
+        <input type="password" id="password" name=" password" required />
+        <button type="submit">Sign in</button>
+      </form>
+      <div>
+        <p>
+          Welcome to AutoHub – Your One-Stop Destination for Automotive
+          Excellence! 🚗🔧 Rev up your driving experience with AutoHub, where
+          passion meets performance. Explore a world of exceptional vehicles,
+          top-notch tires, and high-quality oils that cater to every automotive
+          need. Whether you're a speed enthusiast, a daily commuter, or an
+          off-road adventurer, we have the perfect solution for you. Discover a
+          diverse range of cars that blend style, innovation, and cutting-edge
+          technology. From sleek sedans to rugged SUVs, our curated selection
+          ensures that every journey is an unforgettable experience. Our
+          commitment to quality means you can trust each vehicle to deliver
+          optimal performance and reliability. Traction matters, and that's why
+          we bring you a comprehensive collection of premium tires from leading
+          brands. Whether you're seeking superior grip on the road or reliable
+          performance in challenging terrains, our tire selection has you
+          covered. Find the perfect set to enhance your vehicle's handling and
+          safety. Keep your engine running smoothly with our top-grade oils.
+          Your dream car, the perfect tires, and premium oil – all under one
+          roof at AutoHub. 🚗💨 Here are the links to every section
+          <a href="/src/pages/vehicles/vehicles.html">Vehicles</a>,
+          <a href="src/pages/oils/oils.html">Oils</a>,
+          <a href="src/pages/tyres/tyres.html">Tyres</a>
+        </p>
+      </div>
+    </main>
+
+    <footer>
+      <h1>About us</h1>
+      <p>
+        Contact us <u><a href="/src/pages/contact/contact.html">here</a></u>
+      </p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../navbar.css"></link>
+    <script src="../navbar.js"></script>
+    <link rel="stylesheet" href="../products.css">
+    <title>Oils</title>
+  </head>
+  <body>
+    <div id="header">
+      <div id="header">
+        <nav class="menu">
+          <div id="logo-div">
+          <img id="logo" src="../../components/images/logo.png" alt="car-logo" />
+          <h1 id="title">AutoHub</h1>
+        </div>
+          <ul id="list">
+            <li>
+              <a href="../home/home.html"
+                ><button id="b1" class="navbar-button">Home</button></a
+              >
+            </li>
+            <li>
+              <a href="../insta/insta.html"><button id="b1">Instagram</button></a>
+            </li>
+            <li>
+              <div class="dropdown">
+                <button id="dropdown-button" class="navbar-button">Products</button>
+                <ul id="dropdown-content"></ul>
+              </div>
+            </li>
+            <li>
+              <a href="../survey/survey.html"
+                ><button id="b1" class="navbar-button">Survey</button></a
+              >
+            </li>
+            <li>
+              <a href="../contact/contact.html"
+                ><button id="b1" class="navbar-button">Contact</button></a
+              >
+            </li>
+          </ul>
+        </nav>
+    </div>
+    <div>
+      <p>Here are our top 5 recommendations:</p>
+    </div>
+    <div id="productsContainer"></div>
+
+    <div>
+      <p class="description">
+        Unleash the full potential of your engine with AutoHub's premium range
+        of oils. Engineered for excellence, our oils are meticulously crafted to
+        optimize performance, enhance fuel efficiency, and extend the life of
+        your vehicle. From synthetic blends to full synthetics, each formulation
+        is designed to meet or exceed industry standards, ensuring your engine
+        operates at peak efficiency. Trust AutoHub to provide the lifeblood your
+        engine deserves, delivering unparalleled protection and reliability mile
+        after mile. Elevate your driving experience with our exceptional oils –
+        because every engine deserves the best. Drive confidently, drive with
+        AutoHub! 🚗🛢️
+      </p>
+      <p style="font-size: 18px;">
+        Here you can check our partners and recommended brands
+        <u
+          ><a
+            href="https://www.parkers.co.uk/car-advice/car-care/best-engine-oil/"
+            >here.</a
+          ></u
+        >
+      </p>
+      <form id="order" class="order">
+        <script src="oils.js"></script>
+        <label for="Order" name="Order">Order:</label>
+        <input
+          type="text"
+          name="product"
+          id="product"
+          required
+          placeholder="Oil"
+        />
+        <label for="Quantity">Quantity:</label>
+        <input type="number" id="Quantity" name="Quantity" min="1" placeholder="0" required />
+        <button class="buttonP" type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

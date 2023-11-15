@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Castrol Magnatec",
+    "description": "High-quality motor oil for optimal engine protection.",
+    "price": 25.99,
+    "src": "../../components/images/oils/castrol-magnatec.jpg"
+  },
+  {
+    "name": "Amazon Engine Oil",
+    "description": "High-performance engine oil for a variety of vehicles.",
+    "price": 22.99,
+    "src": "../../components/images/oils/amazon-engine-oil.jpg"
+  },
+  {
+    "name": "Castrol Edge",
+    "description": "Advanced full-synthetic motor oil for superior engine protection.",
+    "price": 29.99,
+    "src": "../../components/images/oils/castrol-edge.jpg"
+  },
+  {
+    "name": "Comma Classic Motor Oil",
+    "description": "Classic motor oil with proven formulation for reliable performance.",
+    "price": 19.99,
+    "src": "../../components/images/oils/comma-classic-motor-oil.jpg"
+  },
+  {
+    "name": "Milers Nano Drive",
+    "description": "Nano-formulated engine oil for enhanced lubrication and efficiency.",
+    "price": 24.99,
+    "src": "../../components/images/oils/milers-nano-drive.jpg"
+  }
+]

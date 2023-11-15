@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../navbar.css"></link>
+    <link rel="stylesheet" href="../tyres/tyres.css">
+    <link rel="stylesheet" href="../products.css">
+    <script src="../navbar.js"></script>
+    <title>Tyres</title>
+  </head>
+  <body>
+    <div id="header">
+      <nav class="menu">
+        <div id="logo-div">
+        <img id="logo" src="../../components/images/logo.png" alt="car-logo" />
+        <h1 id="title">AutoHub</h1>
+      </div>
+        <ul id="list">
+          <li>
+            <a href="../home/home.html"
+              ><button id="b1" class="navbar-button">Home</button></a
+            >
+          </li>
+          <li>
+            <a href="../insta/insta.html"><button id="b1">Instagram</button></a>
+          </li>
+          <li>
+            <div class="dropdown">
+              <button id="dropdown-button" class="navbar-button">Products</button>
+              <ul id="dropdown-content"></ul>
+            </div>
+          </li>
+          <li>
+            <a href="../survey/survey.html"
+              ><button id="b1" class="navbar-button">Survey</button></a
+            >
+          </li>
+          <li>
+            <a href="../contact/contact.html"
+              ><button id="b1" class="navbar-button">Contact</button></a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <p style="font-size: 30px;font-weight: bolder; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"><u>Here are the top 3 brands recommended by us:</u></p>
+    <div class="tyresContainer">
+      
+      <div class="tyres" id="Sava">
+        <img
+          src="../../components/images/tyres/sava.jpg"
+          alt="sava"
+          class="tyre-image"
+        />
+        <p>
+          Here is all types of Sava tyres we have:<a
+            href="https://www.tyrereviews.com/Tyre/Sava/"
+            >Sava</a
+          >
+        </p>
+      </div>
+      <div class="tyres" id="Yokohama">
+        <img
+          src="../../components/images/tyres/yokohama.jpg"
+          alt="yokohama"
+          class="tyre-image"
+        />
+        <p>
+          Here is all types of Yokohama tyres we have:<a
+            href="https://www.tyrereviews.com/Tyre/Yokohama/"
+            >Yokohama</a
+          >
+        </p>
+      </div>
+      <div class="tyres" id="Pirelli">
+        <img
+          src="../../components/images/tyres/pirelli.jpg"
+          alt="pirelli"
+          class="tyre-image"
+        />
+        <p style="text-align: center;">
+          Here is all types of Pirelli tyres we have:<a
+            href="https://www.tyrereviews.com/Tyre/Pirelli/"
+            >Pirelli</a
+          >
+        </p>
+      </div>
+    </div>
+    <div>
+      <p class="description">
+        Enhance your driving experience with AutoHub's premium selection of
+        tyres. Sourced from top-tier manufacturers, our meticulously curated
+        tyre collection is designed to elevate your vehicle's performance on the
+        road. From all-season to high-performance options, each tire is chosen
+        to exceed industry standards, providing optimal traction, fuel
+        efficiency, and durability for your customers. Trust AutoHub as your
+        reliable supplier, ensuring that every tyre delivers unmatched quality
+        and safety for your clients' journeys. Drive confidently, supply with
+        AutoHub – where quality meets the road! 🚗🔒
+      </p>
+      <p class="desc">
+        Here you can check our partners and recommended brands
+        <u><a href="https://www.tyrereviews.com/">here.</a></u>
+      </p>
+      <form id="order" class="order">
+        <script src="tyres.js"></script>
+        <label for="Order" name="Order">Order:</label>
+        <input
+          type="text"
+          name="product"
+          id="product"
+          required
+          placeholder="Tyres"
+        />
+        <label for="Quantity">Quantity:</label>
+        <input type="number" id="Quantity" name="Quantity" min="1"placeholder="0" required />
+        <button class="buttonP" type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

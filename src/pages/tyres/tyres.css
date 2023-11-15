@@ -1,0 +1,20 @@
+.tyresContainer
+{   
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.tyres
+{
+    text-align: center;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.desc{
+    font-size: 18px;
+    font-weight: bolder;
+}

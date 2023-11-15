@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    
+    <link rel="stylesheet" href="../navbar.css"></script><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../navbar.css"></link>
+    <link rel="stylesheet" href="../contact/contact.css">
+    <script src="../contact/contact.js"></script>
+    <script src="../navbar.js"></script>
+    <title>Contact</title>
+  </head>
+  <body>
+      <div id="header">
+        <nav class="menu">
+          <div id="logo-div">
+          <img id="logo" src="../../components/images/logo.png" alt="car-logo" />
+          <h1 id="title">AutoHub</h1>
+        </div>
+          <ul id="list">
+            <li>
+              <a href="../home/home.html"
+                ><button id="b1" class="navbar-button">Home</button></a
+              >
+            </li>
+            <li>
+              <a href="../insta/insta.html"><button id="b1">Instagram</button></a>
+            </li>
+            <li>
+              <div class="dropdown">
+                <button id="dropdown-button" class="navbar-button">Products</button>
+                <ul id="dropdown-content"></ul>
+              </div>
+            </li>
+            <li>
+              <a href="../survey/survey.html"
+                ><button id="b1" class="navbar-button">Survey</button></a
+              >
+            </li>
+            <li>
+              <a href="../contact/contact.html"
+                ><button id="b1" class="navbar-button">Contact</button></a
+              >
+            </li>
+          </ul>
+        </nav>
+    </div>
+    <div class="split-left">
+    <div class="contact">
+      <img src="../../components/images/download.png" alt="contact" />
+      <p>
+        Contact us directly at: <br />contact.@carhub.com <br />Or write us via
+        the contact form. <br />We answer as soon as possible.
+      </p>
+    </div>
+  </div>
+  <div class="split-right">
+    <div class="contact">
+    <form id="contact">
+      <input type="text" id="name" placeholder="Your full name" required />
+      <input type="text" id="email" placeholder="Email" required />
+      <input type="text" id="subject" placeholder="Subject" />
+      <input type="text" id="reason" placeholder="Write something" />
+      <button type="submit">Contact us</button>
+    </form>
+  </div>
+</div>
+  </body>
+</html>
