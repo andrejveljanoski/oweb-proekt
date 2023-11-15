@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function info(data) {
-  const productsContainer = document.getElementById("productsContainer");
+  const productsContainer = document.getElementById("products-container");
   const productElements = data.map((productInfo) => {
     const productContainer = document.createElement("div");
     productContainer.classList.add("product");
